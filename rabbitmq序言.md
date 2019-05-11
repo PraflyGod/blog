@@ -1,0 +1,8 @@
+---
+title:  rabbitmq序言
+tags: redis,序言,缘起
+grammar_cjkRuby: true
+---
+
+
+说到**rabbitmq**，其实很早就有开始阅读**rabbitmq**了。几年前就已经开始了，但是一直没有开始做笔记，也就无从谈起说深入或者掌握其精髓了。然而，消息队列这个东西在分布式系统里面是非常常见了，无论是作为流量xue'feng
