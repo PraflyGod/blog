@@ -11,3 +11,10 @@ eval $(docker-machine env default)
 docker run -it --rm -p 8000:8000 -v $(pwd):/source lambdastack/rust-centos bash
 docker exec -it 57f06afc185c /bin/bash
 ```
+
+### rabbitmq
+```shell
+eval $(docker-machine env default)
+docker  run  rabbitmq
+docker exec -it ${container_id}  /bin/bash
+```
