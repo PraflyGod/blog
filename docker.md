@@ -15,6 +15,8 @@ docker exec -it 57f06afc185c /bin/bash
 ### rabbitmq
 ```shell
 eval $(docker-machine env default)
-docker  run  rabbitmq
+docker run -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:management
 docker exec -it ${container_id}  /bin/bash
+http://192.168.64.2:15672
+guest:guest
 ```
